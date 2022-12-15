@@ -203,6 +203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: choco
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 891cb70bb3ef2e046bb598d3013db660, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 891cb70bb3ef2e046bb598d3013db660, type: 3}
 --- !u!4 &86270700636889589 stripped
@@ -295,6 +299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: candy-v1 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cff58af8465d23147b1eac40c2b21b6d, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cff58af8465d23147b1eac40c2b21b6d, type: 3}
 --- !u!1 &2652716877247285131 stripped
@@ -313,8 +321,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.15, y: 1.38, z: 2.74}
-  m_Center: {x: 0, y: -0.28, z: 0.031142302}
+  m_Size: {x: 2.15, y: 2.0260086, z: 2.7400036}
+  m_Center: {x: -3.1688333e-10, y: 0.043004394, z: 0.03114233}
 --- !u!4 &3430484376498101553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cff58af8465d23147b1eac40c2b21b6d, type: 3}

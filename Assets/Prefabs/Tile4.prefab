@@ -203,6 +203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: choco
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 891cb70bb3ef2e046bb598d3013db660, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 891cb70bb3ef2e046bb598d3013db660, type: 3}
 --- !u!1 &229182458693895207 stripped
@@ -294,6 +298,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0ae4fb624c7806345a9a5df67b3612bd, type: 3}
       propertyPath: m_Name
       value: candy-v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ae4fb624c7806345a9a5df67b3612bd, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ae4fb624c7806345a9a5df67b3612bd, type: 3}
