@@ -55,16 +55,21 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (transform.position == targetPosition) return;
-        Vector3 diff = targetPosition - transform.position;
-        Vector3 moveDir = diff.normalized * 25 * Time.deltaTime;
-        if(moveDir.sqrMagnitude < diff.sqrMagnitude) controller.Move(moveDir);
-        else controller.Move(diff);
+        if (transform.position != targetPosition)
+        {
+            Vector3 diff = targetPosition - transform.position;
+            Vector3 moveDir = diff.normalized * 25 * Time.deltaTime;
+            if(moveDir.sqrMagnitude < diff.sqrMagnitude) controller.Move(moveDir);
+            else controller.Move(diff);
+        }
+        
+
+         controller.Move(direction * Time.deltaTime); 
         
     }
 
     private void FixedUpdate(){
-        controller.Move(direction * Time.fixedDeltaTime); 
+       
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
