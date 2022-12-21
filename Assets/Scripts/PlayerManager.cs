@@ -7,9 +7,12 @@ public class PlayerManager : MonoBehaviour
 {
     public static bool gameOver;
     public GameObject gameOverPanel;
+    public GameObject overlay;
 
     public static int numberOfFruits;
     public Text fruitsText;
+
+    public Text finalScore;
 
     void Start()
     {
@@ -26,8 +29,11 @@ public class PlayerManager : MonoBehaviour
         {
             Time.timeScale=0;
             gameOverPanel.SetActive(true);
+            overlay.SetActive(false);
+
         }
 
         fruitsText.text = "Fruits: " +numberOfFruits;
+        finalScore.text = "Final Score: " +numberOfFruits;
     }
 }
