@@ -74,11 +74,13 @@ public class PlayerController : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if(hit.transform.tag=="Obstacle")
-        {
-            PlayerManager.gameOver=true;
-            FindObjectOfType<AudioManager>().PlaySound("GameOver");
-        }
+        if(hit.transform.tag=="Obstacle" && PlayerManager.numberOfFruits > 10){
+            PlayerManager.numberOfFruits = PlayerManager.numberOfFruits - 10;
+
+            } else if (hit.transform.tag=="Obstacle"){
+                PlayerManager.gameOver=true;
+                FindObjectOfType<AudioManager>().PlaySound("GameOver");
+            }
     }
 
     
