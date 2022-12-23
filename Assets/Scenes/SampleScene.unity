@@ -743,7 +743,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 22.3, y: 200.5}
-  m_SizeDelta: {x: 497.8, y: 234.7}
+  m_SizeDelta: {x: 800.5, y: 234.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596419984
 MonoBehaviour:
