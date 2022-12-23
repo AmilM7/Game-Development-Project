@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(forwardSpeed<maxSpeed) forwardSpeed += 0.2f * Time.deltaTime;
+        if(forwardSpeed<maxSpeed) forwardSpeed += 0.3f * Time.deltaTime;
 
         direction.z = forwardSpeed;
         
